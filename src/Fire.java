@@ -9,7 +9,7 @@ private int evolvelevel;
 public Fire(String name, int level, float weight, String attack, String gender){
     super(name, level, weight, attack, gender);
     super.setType("Fire");
-    super.setEvolve("charmeleon");
+    super.setEvolve(charmeleon);
     super.setEvolveLevel(16);
 }
 public void setAttack(String attack){
@@ -18,6 +18,10 @@ public void setAttack(String attack){
 
 public void setEvolve(String evolve){
     this.evolve = evolve;
+}
+@Override
+public void Attack(){
+    System.out.println("ik doe een " + flamethrower);
 }
 
 
