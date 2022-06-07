@@ -12,4 +12,8 @@ public class Electric extends Pokémon{
     public String getAttack(){
         return thunderbolt;
     }
+    @Override
+    public void Attack(){
+        System.out.println("ik doe een " + thunderbolt);
+    }
 }

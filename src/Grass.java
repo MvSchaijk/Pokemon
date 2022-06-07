@@ -12,4 +12,9 @@ public class Grass extends Pokémon{
     public String getAttack(){
         return vineWhip;
     }
+
+    @Override
+    public void Attack() {
+        System.out.println("ik kietel je met mijn blaadjes");
+    }
 }

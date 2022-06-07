@@ -47,4 +47,7 @@ public abstract class Pokémon {
     public int getEvolvelevel(){
         return evolvelevel;
     }
+    public void Attack(){
+        System.out.println("ik doe een aanval");
+    }
 }
